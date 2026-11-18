@@ -5,9 +5,9 @@
 cask "questpump" do
   arch arm: "aarch64", intel: "x64"
 
-  version "1.1.0"
-  sha256 arm:   "c998c7d0b2c8628b734a3e098090c1eda91a76895e96d8881679d60051499f39",
-         intel: "a72f3175f9412d88625ec5f0b714bac119b3e6685833e24e018a8e374a54aaaf"
+  version "1.2.0"
+  sha256 arm:   "879fc257d785eb84eab130d5f4415417d76e54f2b75f880c50872e258e9031ca",
+         intel: "3a6b000d3555448233950addc4e3f36043a9a60a3a5922894d04bb75a54a138c"
 
   url "https://github.com/Pluxia-GmbH/questpump/releases/download/helper-v#{version}/QuestPump_#{version}_#{arch}.dmg",
       verified: "github.com/Pluxia-GmbH/questpump/"
